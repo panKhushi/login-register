@@ -1,7 +1,9 @@
 # Login & Registration System
-
 A complete Login and Registration system built using:
 
+
+A complete authentication system using:
+f9319965d3cde1b77a06cf7703af47
 - HTML
 - CSS
 - JavaScript
@@ -12,6 +14,7 @@ A complete Login and Registration system built using:
 - User Registration
 - Secure Login
 - Password Hashing
+
 - Role-based users (Patient / Doctor)
 - Forgot Password (Database Ready)
 
@@ -23,4 +26,11 @@ A complete Login and Registration system built using:
 
 ## Note
 This project uses PHP & MySQL and runs locally.
+
+- Role-based Users
+- Forgot Password (DB Ready)
+
+## Note
+This project uses PHP & MySQL and runs locally using XAMPP.
+ 1d092b09c8f9319965d3cde1b77a06cf7703af47
 GitHub Pages does not support backend execution.
