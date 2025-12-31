@@ -439,14 +439,14 @@
 <body>
     <div class="container">
         <div class="form-box login">
-            <form action="">
+            <form action="login.php" method="POST">
                 <h1>Login</h1>
                 <div class="input-box">
-                    <input type="text" placeholder="Username" required>
+                    <input type="text" name="username" placeholder="Username" required>
                     <i class='bx bxs-user'></i>
                 </div>
                 <div class="input-box">
-                    <input type="password" placeholder="Password" required>
+                    <input type="password" name="password"placeholder="Password" required>
                     <i class='bx bxs-lock-alt'></i>
                 </div>
                 <div class="forgot-link">
@@ -464,22 +464,22 @@
         </div>
 
         <div class="form-box register">
-            <form action="">
+            <form action="register.php" method="POST">
                 <h1>Registration</h1>
                 <div class="input-box">
-                    <input type="text" placeholder="Username" required>
+                    <input type="text"name="username" placeholder="Username" required>
                     <i class='bx bxs-user'></i>
                 </div>
                 <div class="input-box">
-                    <input type="email" placeholder="Email" required>
+                    <input type="email" name="email" placeholder="Email" required>
                     <i class='bx bxs-envelope'></i>
                 </div>
                 <div class="input-box">
-                    <input type="password" placeholder="Password" required>
+                    <input type="password"  name="password" placeholder="Password" required>
                     <i class='bx bxs-lock-alt'></i>
                 </div>
                 <div class="input-box">
-                    <select required>
+                    <select name= "role" required>
                         <option value="" disabled selected>Select Role</option>
                         <option value="patient">Patient</option>
                         <option value="doctor">Doctor</option>
